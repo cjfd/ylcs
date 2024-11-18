@@ -1,0 +1,45 @@
+2024-11-02 17:12:31.051 INFO  org.fisco.bcos.sdk.BcosSDK 58 build -- create BcosSDK, configPath: /root/tools/console/conf/config.toml
+2024-11-02 17:12:31.420 INFO  org.fisco.bcos.sdk.network.ConnectionManager 88 <init> --  all connections, size: 2, list: [ConnectionInfo{host='127.0.0.1', port=20200}, ConnectionInfo{host='127.0.0.1', port=20201}]
+2024-11-02 17:12:31.421 INFO  org.fisco.bcos.sdk.network.NetworkImp 167 start -- 
+* TRACE INFORMATION:
+----------------------------
+====> STEP1: try to connect nodes with ecdsa context...
+
+2024-11-02 17:12:31.422 INFO  org.fisco.bcos.sdk.network.NetworkImp 174 start -- ====> <==== STEP1-1: Load certificates for ecdsa context success..., start connManager with ECDSA sslContext
+2024-11-02 17:12:31.493 INFO  org.fisco.bcos.sdk.network.ConnectionManager 238 initSslContext --  build ECDSA ssl context with configured certificates 
+2024-11-02 17:12:33.146 INFO  io.netty.handler.ssl.OpenSsl 357 <clinit> -- Using supported configured namedGroups: [SM2, secp256k1, secp256r1, secp384r1, secp521r1]. Unsupported namedGroups: [x25519]. 
+2024-11-02 17:12:33.872 INFO  org.fisco.bcos.sdk.network.ConnectionManager 402 checkConnectionResult --  ssl handshake success 127.0.0.1:20200
+2024-11-02 17:12:33.873 INFO  org.fisco.bcos.sdk.network.ConnectionManager 402 checkConnectionResult --  ssl handshake success 127.0.0.1:20201
+2024-11-02 17:12:33.874 INFO  org.fisco.bcos.sdk.network.ChannelHandler 73 userEventTriggered --  handshake success, host: 127.0.0.1, port: 20201, ctx: 1614700360
+2024-11-02 17:12:33.874 INFO  org.fisco.bcos.sdk.network.ChannelHandler 73 userEventTriggered --  handshake success, host: 127.0.0.1, port: 20200, ctx: 1902695130
+2024-11-02 17:12:34.038 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$1 225 onResponse --  node: ClientVersion{version='2.11.0', supportedVersion='2.11.0', chainId='1', buildTime='20240520 01:38:47', buildType='Linux/g++/Release', gitBranch='HEAD', gitCommitHash='bee4dda033297443f02774973445d954933db885'}, content: {"id":1,"jsonrpc":"2.0","result":{"Build Time":"20240520 01:38:47","Build Type":"Linux/g++/Release","Chain Id":"1","FISCO-BCOS Version":"2.11.0","Git Branch":"HEAD","Git Commit Hash":"bee4dda033297443f02774973445d954933db885","Supported Version":"2.11.0"}}
+
+2024-11-02 17:12:34.038 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$1 225 onResponse --  node: ClientVersion{version='2.11.0', supportedVersion='2.11.0', chainId='1', buildTime='20240520 01:38:47', buildType='Linux/g++/Release', gitBranch='HEAD', gitCommitHash='bee4dda033297443f02774973445d954933db885'}, content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20240520 01:38:47","Build Type":"Linux/g++/Release","Chain Id":"1","FISCO-BCOS Version":"2.11.0","Git Branch":"HEAD","Git Commit Hash":"bee4dda033297443f02774973445d954933db885","Supported Version":"2.11.0"}}
+
+2024-11-02 17:12:34.039 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$1 233 onResponse --  support channel handshake node
+2024-11-02 17:12:34.039 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$1 233 onResponse --  support channel handshake node
+2024-11-02 17:12:34.046 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$2 309 onResponse --  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.11.0, EnumProtocol=VERSION_3]
+2024-11-02 17:12:34.046 INFO  org.fisco.bcos.sdk.channel.ChannelMsgHandler$2 309 onResponse --  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.11.0, EnumProtocol=VERSION_3]
+2024-11-02 17:12:34.059 INFO  org.fisco.bcos.sdk.channel.ChannelImp 126 checkConnectionsToStartPeriodTask --  Connect to  nodes: 127.0.0.1:20200, 127.0.0.1:20201, 
+2024-11-02 17:12:34.061 INFO  org.fisco.bcos.sdk.BcosSDK 77 <init> -- create BcosSDK, start channel success, cryptoType: 0
+2024-11-02 17:12:34.086 INFO  org.fisco.bcos.sdk.BcosSDK 87 <init> -- create BcosSDK, start channel succ, channelProcessorThreadSize: 4, receiptProcessorThreadSize: 4
+2024-11-02 17:12:34.101 INFO  org.fisco.bcos.sdk.service.GroupManagerServiceImpl 260 registerBlockNumberNotifyHandler -- registerBlockNumberNotifyHandler
+2024-11-02 17:12:34.103 INFO  org.fisco.bcos.sdk.service.GroupManagerServiceImpl 282 registerTransactionNotifyHandler -- registerTransactionNotifyHandler
+2024-11-02 17:12:34.138 INFO  org.fisco.bcos.sdk.BcosSDK 98 <init> -- create BcosSDK, create groupManagerService success
+2024-11-02 17:12:35.323 INFO  org.fisco.bcos.sdk.amop.AmopImp 216 sendSubscribe -- update subscribe inform 2 peers
+2024-11-02 17:12:35.332 INFO  org.fisco.bcos.sdk.amop.AmopImp 216 sendSubscribe -- update subscribe inform 2 peers
+2024-11-02 17:12:35.332 INFO  org.fisco.bcos.sdk.amop.AmopImp 188 start -- amop module started
+2024-11-02 17:12:35.333 INFO  org.fisco.bcos.sdk.amop.AmopImp 216 sendSubscribe -- update subscribe inform 2 peers
+2024-11-02 17:12:35.333 INFO  org.fisco.bcos.sdk.BcosSDK 103 <init> -- create BcosSDK, create Amop success
+2024-11-02 17:12:35.376 INFO  org.fisco.bcos.sdk.client.Client 114 build -- build client success for group 1, crypto type 0
+2024-11-02 17:12:35.381 INFO  org.fisco.bcos.sdk.BcosSDK 178 getClient -- create client for group 1 success
+2024-11-02 17:12:35.439 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.442 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.444 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.445 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.447 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.450 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.454 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.465 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.468 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0
+2024-11-02 17:12:35.473 INFO  org.fisco.bcos.sdk.eventsub.EventSubscribeImp 173 resendWaitingFilters -- Resend waiting filters, size: 0

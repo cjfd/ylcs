@@ -1,0 +1,157 @@
+2024-11-03 11:31:58.447 [main] INFO  ConnectionManager() -  all connections, size: 1, list: [ConnectionInfo{host='127.0.0.1', port=20200}]
+2024-11-03 11:31:58.530 [main] INFO  ConnectionManager() -  build ECDSA ssl context with configured certificates 
+2024-11-03 11:31:59.748 [main] ERROR ConnectionManager() - connect to 127.0.0.1:20200 failed. Connection refused: /127.0.0.1:20200
+2024-11-03 11:31:59.750 [main] ERROR ConnectionManager() -  all connections have failed, [{"code":2, "msg":"connect to 127.0.0.1:20200 failed"}] 
+2024-11-03 11:32:01.858 [main] INFO  ConnectionManager() - The netty has been stopped
+2024-11-03 11:32:01.858 [main] ERROR ChannelImp() - init channel network error,  Failed to connect to all the nodes! errorMessage: 
+connect to 127.0.0.1:20200 failed
+
+[System Information]:
+[Java Version] : 11.0.24
+[OS Name] : Linux
+[OS Arch] : amd64
+[OS Version] : 6.8.0-47-generic
+[Vendor Name] : Ubuntu
+[Vendor URL] : https://ubuntu.com/
+[JVM Version] : 11.0.24+8-post-Ubuntu-1ubuntu322.04
+[JVM Name] : OpenJDK 64-Bit Server VM
+[JVM Vendor] : Ubuntu
+[JAVA Library Path] : /root/tools/webase-front/conf
+[JDK Disabled NamedCurves] : null
+[JDK DisableNative Option] : false
+[Support secp256k1] : true
+[Support secp256r1] : true
+ 
+2024-11-03 11:32:01.858 [main] WARN  ChannelImp() - The channel has already been stopped!
+2024-11-03 11:33:45.152 [main] INFO  ConnectionManager() -  all connections, size: 1, list: [ConnectionInfo{host='127.0.0.1', port=20200}]
+2024-11-03 11:33:45.216 [main] INFO  ConnectionManager() -  build ECDSA ssl context with configured certificates 
+2024-11-03 11:33:45.903 [main] ERROR ConnectionManager() - connect to 127.0.0.1:20200 failed. Connection refused: /127.0.0.1:20200
+2024-11-03 11:33:45.904 [main] ERROR ConnectionManager() -  all connections have failed, [{"code":2, "msg":"connect to 127.0.0.1:20200 failed"}] 
+2024-11-03 11:33:47.956 [main] INFO  ConnectionManager() - The netty has been stopped
+2024-11-03 11:33:47.956 [main] ERROR ChannelImp() - init channel network error,  Failed to connect to all the nodes! errorMessage: 
+connect to 127.0.0.1:20200 failed
+
+[System Information]:
+[Java Version] : 11.0.24
+[OS Name] : Linux
+[OS Arch] : amd64
+[OS Version] : 6.8.0-47-generic
+[Vendor Name] : Ubuntu
+[Vendor URL] : https://ubuntu.com/
+[JVM Version] : 11.0.24+8-post-Ubuntu-1ubuntu322.04
+[JVM Name] : OpenJDK 64-Bit Server VM
+[JVM Vendor] : Ubuntu
+[JAVA Library Path] : /root/tools/webase-front/conf
+[JDK Disabled NamedCurves] : null
+[JDK DisableNative Option] : false
+[Support secp256k1] : true
+[Support secp256r1] : true
+ 
+2024-11-03 11:33:47.956 [main] WARN  ChannelImp() - The channel has already been stopped!
+2024-11-03 11:38:39.282 [main] INFO  ConnectionManager() -  all connections, size: 1, list: [ConnectionInfo{host='127.0.0.1', port=20200}]
+2024-11-03 11:38:39.341 [main] INFO  ConnectionManager() -  build ECDSA ssl context with configured certificates 
+2024-11-03 11:38:40.215 [nioEventLoopGroup-2-1] INFO  ChannelHandler() -  handshake success, host: 127.0.0.1, port: 20200, ctx: 9575641
+2024-11-03 11:38:40.362 [nioEventLoopGroup-2-1] INFO  ChannelImp() -  node: ClientVersion{version='2.11.0', supportedVersion='2.11.0', chainId='1', buildTime='20240520 01:38:47', buildType='Linux/g++/Release', gitBranch='HEAD', gitCommitHash='bee4dda033297443f02774973445d954933db885'}, content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20240520 01:38:47","Build Type":"Linux/g++/Release","Chain Id":"1","FISCO-BCOS Version":"2.11.0","Git Branch":"HEAD","Git Commit Hash":"bee4dda033297443f02774973445d954933db885","Supported Version":"2.11.0"}}
+
+2024-11-03 11:38:40.363 [nioEventLoopGroup-2-1] INFO  ChannelImp() -  support channel handshake node
+2024-11-03 11:38:40.368 [nioEventLoopGroup-2-1] INFO  ChannelImp() -  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.11.0, EnumProtocol=VERSION_3]
+2024-11-03 11:38:40.398 [main] INFO  ChannelImp() -  Connect to  nodes: 127.0.0.1:20200, java version: 11.0.24 ,java vendor: Ubuntu
+2024-11-03 11:38:40.399 [main] INFO  BcosSDK() - create BcosSDK, start channel success, cryptoType: 0
+2024-11-03 11:38:40.408 [main] INFO  BcosSDK() - create BcosSDK, start channel succ, channelProcessorThreadSize: 50, receiptProcessorThreadSize: 50
+2024-11-03 11:38:40.423 [main] INFO  GroupManagerServiceImpl() - registerBlockNumberNotifyHandler
+2024-11-03 11:38:40.424 [main] INFO  GroupManagerServiceImpl() - registerTransactionNotifyHandler
+2024-11-03 11:38:40.450 [main] INFO  BcosSDK() - create BcosSDK, create groupManagerService success
+2024-11-03 11:38:41.339 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.352 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.550 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.553 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.568 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.570 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.589 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.591 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.598 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.600 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.615 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.617 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.633 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.634 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.660 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.662 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.677 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.678 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:41.679 [main] INFO  AmopImp() - update subscribe inform 1 peers
+2024-11-03 11:38:41.689 [main] INFO  AmopImp() - amop module started
+2024-11-03 11:38:41.689 [main] INFO  AmopImp() - update subscribe inform 1 peers
+2024-11-03 11:38:41.689 [main] INFO  BcosSDK() - create BcosSDK, create Amop success
+2024-11-03 11:38:42.003 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:42.004 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:42.010 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:42.011 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:42.024 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:42.025 [main] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.861 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.863 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.904 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.905 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.920 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.921 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.922 [http-nio-5002-exec-1] INFO  CryptoSuite() - init CryptoSuite, cryptoType: 0
+2024-11-03 11:38:48.936 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.937 [http-nio-5002-exec-1] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:38:48.937 [http-nio-5002-exec-1] INFO  Client() - build client success for group 1
+2024-11-03 11:38:48.941 [http-nio-5002-exec-1] INFO  BcosSDK() - create client for group 1 success
+2024-11-03 11:45:15.282 [http-nio-5002-exec-9] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:15.283 [http-nio-5002-exec-9] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.496 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.498 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.685 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.686 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.701 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: registerParallelFunction, methodId: 0x34a18dda, methodSignature: registerParallelFunction(string,uint256), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@87c76042
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@87c76042
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: balanceOf, methodId: 0x35ee5f87, methodSignature: balanceOf(string), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@bc85197c
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@bc85197c
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: unregisterParallelFunction, methodId: 0x79fa913f, methodSignature: unregisterParallelFunction(string), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@62a9ee6e
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@62a9ee6e
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: set, methodId: 0x8a42ebe9, methodSignature: set(string,uint256), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@641a5720
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@641a5720
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: transfer, methodId: 0x9b80b050, methodSignature: transfer(string,string,uint256), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@8f7fb5c8
+2024-11-03 11:45:19.702 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@8f7fb5c8
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: enableParallel, methodId: 0xbca926af, methodSignature: enableParallel(), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@ca550115
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@ca550115
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: disableParallel, methodId: 0xd39f70bc, methodSignature: disableParallel(), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@c67c0efa
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@c67c0efa
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ContractABIDefinition() -  name: transferWithRevert, methodId: 0xfad42f87, methodSignature: transferWithRevert(string,string,uint256), abi: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@eb7dd72
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  abiDefinition: org.fisco.bcos.sdk.abi.wrapper.ABIDefinition@eb7dd72
+2024-11-03 11:45:19.703 [http-nio-5002-exec-7] INFO  ABIDefinitionFactory() -  contractABIDefinition org.fisco.bcos.sdk.abi.wrapper.ContractABIDefinition@7bdf68ad 
+2024-11-03 11:45:19.707 [http-nio-5002-exec-7] INFO  ABIObjectFactory() -  name: null
+2024-11-03 11:45:19.719 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 11:45:19.721 [http-nio-5002-exec-7] WARN  KeyTool() - get method for EC5Util failed, method name: convertSpec
+2024-11-03 12:36:05.352 [nioEventLoopGroup-2-1] ERROR ChannelHandler() -  idle state event:READER_IDLE connect127.0.0.1:20200 long time Inactive, disconnect
+2024-11-03 12:36:05.355 [nioEventLoopGroup-2-1] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:36:05.356 [nioEventLoopGroup-2-1] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:36:05.356 [GroupManagerServiceImpl] INFO  AmopImp() - update subscribe inform 0 peers
+2024-11-03 12:36:05.372 [nioEventLoopGroup-2-1] INFO  ChannelHandler() -  ssl close completion event, host: 127.0.0.1, port: 20200, ctx: 9575641 
+2024-11-03 12:36:05.373 [nioEventLoopGroup-2-1] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:36:05.373 [nioEventLoopGroup-2-1] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:36:15.430 [pool-3-thread-1] ERROR ResponseCallback() - Processing message timeout:{}
+2024-11-03 12:36:15.430 [pool-3-thread-1] ERROR ResponseCallback() - Processing message timeout:{}
+2024-11-03 12:36:15.430 [pool-8-thread-1] ERROR JsonRpcService() - parseResponseIntoJsonRpcResponse failed, method: getGroupList, group: null, seq: null, retErrorMessage: Processing message timeout, retErrorCode: 102
+2024-11-03 12:36:15.430 [pool-11-thread-1] ERROR JsonRpcService() - parseResponseIntoJsonRpcResponse failed, method: getGroupList, group: null, seq: null, retErrorMessage: Processing message timeout, retErrorCode: 102
+2024-11-03 12:36:15.430 [pool-11-thread-1] WARN  GroupManagerServiceImpl() - fetchGroupList from 127.0.0.1:20200 failed, error info: get response failed, errorCode:102, error message:Processing message timeout
+2024-11-03 12:36:15.430 [pool-8-thread-1] WARN  GroupManagerServiceImpl() - fetchGroupList from 127.0.0.1:20200 failed, error info: get response failed, errorCode:102, error message:Processing message timeout
+2024-11-03 12:36:20.246 [nioEventLoopGroup-2-2] INFO  ChannelHandler() -  handshake success, host: 127.0.0.1, port: 20200, ctx: 1704724163
+2024-11-03 12:36:20.247 [pool-5-thread-1] INFO  ConnectionManager() -  reconnect to 127.0.0.1:20200 success
+2024-11-03 12:36:20.250 [channelProcessor] INFO  ChannelImp() -  node: ClientVersion{version='2.11.0', supportedVersion='2.11.0', chainId='1', buildTime='20240520 01:38:47', buildType='Linux/g++/Release', gitBranch='HEAD', gitCommitHash='bee4dda033297443f02774973445d954933db885'}, content: {"id":1,"jsonrpc":"2.0","result":{"Build Time":"20240520 01:38:47","Build Type":"Linux/g++/Release","Chain Id":"1","FISCO-BCOS Version":"2.11.0","Git Branch":"HEAD","Git Commit Hash":"bee4dda033297443f02774973445d954933db885","Supported Version":"2.11.0"}}
+
+2024-11-03 12:36:20.250 [channelProcessor] INFO  ChannelImp() -  support channel handshake node
+2024-11-03 12:36:20.253 [channelProcessor] INFO  ChannelImp() -  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.11.0, EnumProtocol=VERSION_3]
+2024-11-03 12:36:20.259 [channelProcessor] INFO  GetNodeVersionHandler() - GetNodeVersionHandler: onConnect, endpoint: 127.0.0.1:20200
+2024-11-03 12:36:20.259 [channelProcessor] INFO  AmopMsgHandler() - Node connected, update topics to node. node:127.0.0.1:20200
+2024-11-03 12:36:20.262 [GroupManagerServiceImpl] INFO  AmopImp() - update subscribe inform 1 peers
+2024-11-03 12:51:05.480 [nioEventLoopGroup-2-2] INFO  ChannelHandler() -  ssl close completion event, host: 127.0.0.1, port: 20200, ctx: 1704724163 
+2024-11-03 12:51:05.481 [nioEventLoopGroup-2-2] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:51:05.482 [nioEventLoopGroup-2-2] INFO  EventPushMsgHandler() -  filter connection disconnect
+2024-11-03 12:51:05.482 [GroupManagerServiceImpl] INFO  AmopImp() - update subscribe inform 0 peers
+2024-11-03 12:51:15.530 [pool-3-thread-1] ERROR ResponseCallback() - Processing message timeout:{}
+2024-11-03 12:51:15.530 [pool-8-thread-1] ERROR JsonRpcService() - parseResponseIntoJsonRpcResponse failed, method: getGroupList, group: null, seq: null, retErrorMessage: Processing message timeout, retErrorCode: 102
+2024-11-03 12:51:15.531 [pool-8-thread-1] WARN  GroupManagerServiceImpl() - fetchGroupList from 127.0.0.1:20200 failed, error info: get response failed, errorCode:102, error message:Processing message timeout
